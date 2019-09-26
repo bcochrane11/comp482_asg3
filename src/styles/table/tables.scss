@@ -1,0 +1,42 @@
+@import "../base/basicstyle.scss";
+
+$table-background-color: $color3;
+
+$table-cell-border: 1px solid #000000 !default;
+$table-cell-border-width: 0 0 1px !default;
+$table-cell-padding: 0.5em 0.75em !default;
+$table-cell-heading-color: $text-strong !default;
+
+$table-head-cell-border-width: 0 0 2px !default;
+$table-head-cell-color: $text-strong !default;
+$table-foot-cell-border-width: 2px 0 0 !default;
+$table-foot-cell-color: $text-strong !default;
+
+$table-row-hover-background-color: $white-bis !default;
+
+$table-row-active-background-color: $primary !default;
+$table-row-active-color: $primary-invert !default;
+
+$table-striped-row-even-background-color: #000000 !default;
+$table-striped-row-even-hover-background-color: $white-ter !default;
+
+//is-bordered is-striped is-narrow is-hoverable is-fullwidth is-narrow-mobile
+table {
+    margin-bottom: 1.5rem;
+    white-space: norap;
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: $table-background-color;
+    thead {
+        tr {
+            th {
+               background-color: $color5; 
+            }
+        }
+    }
+    th, tr, td {
+        border: 1px solid #000000;
+        padding: $table-cell-padding;
+        vertical-align: top;
+    }
+}

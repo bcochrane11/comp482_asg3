@@ -1,0 +1,56 @@
+/*This page overwrites the original Bulma SASS/SCSS/CSS with our own customized SCSS/SASS
+Link for colorscheme: http://colormind.io/bootstrap/
+*/
+
+// 1. Import the initial variables
+@import '../../../node_modules/bulma/sass/utilities/initial-variables';
+@import '../../../node_modules/bulma/sass/utilities/functions';
+
+/* Coolors Exported Palette - coolors.co/52489c-4062bb-59c3c3-ebebeb-f45b69 */
+
+
+/* HSL */
+$color1: #F78888; //Pink - Main Brand Color
+$color2: #F3D250; //Yellow - Dark Shades
+$color3: #ECECEC; //White - Light Shades
+$color4: #90CCF4; //Light Blue - Light Accent
+$color5: #5DA2D5; //Blue - Dark Accent
+
+// 2. Set your own initial variables
+$family-serif: "Merriweather", "Georgia", serif;
+
+// 3. Set the derived variables
+$link: $color5;
+$link-invert: findColorInvert($link);
+$primary: #F18E8B;
+$primary-invert: findColorInvert($primary);
+$info: #ECC643;
+$info-invert: findColorInvert($info);
+$success: $color2;
+$success-invert: findColorInvert($success);
+$warning: #fB952A;
+$warning-invert: findColorInvert($warning);
+$danger: #F44336;
+$danger-invert: findColorInvert($danger);
+
+$family-primary: $family-serif;
+
+// 4. Setup your Custom Colors
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+// 5. Add new color variables to the color map.
+@import "../../../node_modules/bulma/sass/utilities/derived-variables";
+$addColors: (
+  "twitter":($twitter, $twitter-invert),
+  "linkedin": ($linkedin, $linkedin-invert),
+  "github": ($github, $github-invert)
+);
+$colors: map-merge($colors, $addColors);
+
+// 6. Import the rest of Bulma
+@import "../../../node_modules/bulma/bulma.sass";

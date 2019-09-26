@@ -1,0 +1,23 @@
+@import '../base/basicstyle.scss';
+@import '../table/tables.scss';
+
+.columns {
+    margin-top: 2px;
+    margin-bottom: 0rem;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.column {
+    margin: 1px 0px 1px 0px;
+}
+.container {
+    max-height: auto;
+}
+.card {
+    box-shadow: 5px 5px 8px #888888;
+    background-color: $color2;
+}
+.button {
+    padding: 0rem;
+    margin: 0rem;
+}
