@@ -24,7 +24,7 @@ class Login extends Component {
             smtgWrong: false,
             startNoLogin: this.props.startNoLogin, 
             notify:false,
-            debug: true
+            debug: false
       
         };
         this.successfullLogin = this.successfullLogin.bind(this)
