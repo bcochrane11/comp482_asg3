@@ -45,7 +45,7 @@ const AboutUs=()=> {
               <i className="fas fa-code"></i>
             </span>
             <span>
-              <a href="#" > Link to front end repo</a>
+              <a > Link to front end repo</a>
             </span>
           </div>
           <div className="panel-block">
@@ -53,7 +53,7 @@ const AboutUs=()=> {
               <i className="fas fa-code"></i>
             </span>
             <span>
-              <a href="#" > Link to back end repo</a>
+              <a  > Link to back end repo</a>
             </span>
           </div>
           </nav>
