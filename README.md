@@ -74,3 +74,8 @@ You can get the files in multiple ways. Option 2,3,4a include the dependencies, 
     2. If a browser doesn’t open automatically open on and navigate to http://localhost:3000 
 
 
+## Logging into the application
+
+1. There are two buttons on the login screen for test users. Select one to log into the system.
+2. If you select the login button you will get an error message and will not be logged in
+3. If you select one of the test users the same message will appear but you will be redirected into the application. This is due to the way the login system works. In order to bypass it without input authentication is required to fail first. This feature was added to make it easier for demos and assignment marking
