@@ -1,3 +1,108 @@
+<a name="1.0.34"></a>
+## [1.0.34](https://github.com/Wikiki/bulma-extensions/compare/1.0.33...1.0.34) (2018-06-06)
+
+
+
+<a name="1.0.33"></a>
+## [1.0.33](https://github.com/Wikiki/bulma-extensions/compare/1.0.32...1.0.33) (2018-06-06)
+
+
+
+<a name="1.0.32"></a>
+## [1.0.32](https://github.com/Wikiki/bulma-extensions/compare/1.0.31...1.0.32) (2018-05-31)
+
+
+### Bug Fixes
+
+* add attach static method ([097c134](https://github.com/Wikiki/bulma-extensions/commit/097c134))
+
+
+
+<a name="1.0.31"></a>
+## [1.0.31](https://github.com/Wikiki/bulma-extensions/compare/1.0.30...1.0.31) (2018-05-25)
+
+
+### Bug Fixes
+
+* vertical divider ([830fe07](https://github.com/Wikiki/bulma-extensions/commit/830fe07))
+
+
+
+<a name="1.0.30"></a>
+## [1.0.30](https://github.com/Wikiki/bulma-extensions/compare/1.0.29...1.0.30) (2018-05-14)
+
+
+
+<a name="1.0.29"></a>
+## [1.0.29](https://github.com/Wikiki/bulma-extensions/compare/1.0.28...1.0.29) (2018-05-14)
+
+
+
+<a name="1.0.28"></a>
+## [1.0.28](https://github.com/Wikiki/bulma-extensions/compare/1.0.27...1.0.28) (2018-05-13)
+
+
+
+<a name="1.0.27"></a>
+## [1.0.27](https://github.com/Wikiki/bulma-extensions/compare/1.0.26...1.0.27) (2018-05-13)
+
+
+
+<a name="1.0.26"></a>
+## [1.0.26](https://github.com/Wikiki/bulma-extensions/compare/1.0.25...1.0.26) (2018-05-12)
+
+
+
+<a name="1.0.25"></a>
+## [1.0.25](https://github.com/Wikiki/bulma-extensions/compare/1.0.24...1.0.25) (2018-05-11)
+
+
+
+<a name="1.0.24"></a>
+## [1.0.24](https://github.com/Wikiki/bulma-extensions/compare/1.0.23...1.0.24) (2018-05-11)
+
+
+
+<a name="1.0.23"></a>
+## [1.0.23](https://github.com/Wikiki/bulma-extensions/compare/1.0.22...1.0.23) (2018-05-11)
+
+
+
+<a name="1.0.22"></a>
+## [1.0.22](https://github.com/Wikiki/bulma-extensions/compare/1.0.21...1.0.22) (2018-05-11)
+
+
+
+<a name="1.0.21"></a>
+## [1.0.21](https://github.com/Wikiki/bulma-extensions/compare/1.0.20...1.0.21) (2018-05-11)
+
+
+
+<a name="1.0.20"></a>
+## [1.0.20](https://github.com/Wikiki/bulma-extensions/compare/1.0.19...1.0.20) (2018-05-11)
+
+
+
+<a name="1.0.19"></a>
+## [1.0.19](https://github.com/Wikiki/bulma-extensions/compare/1.0.18...1.0.19) (2018-05-11)
+
+
+
+<a name="1.0.18"></a>
+## [1.0.18](https://github.com/Wikiki/bulma-extensions/compare/1.0.17...1.0.18) (2018-05-11)
+
+
+
+<a name="1.0.17"></a>
+## [1.0.17](https://github.com/Wikiki/bulma-extensions/compare/1.0.16...1.0.17) (2018-05-11)
+
+
+
+<a name="1.0.16"></a>
+## [1.0.16](https://github.com/Wikiki/bulma-extensions/compare/1.0.14...1.0.16) (2018-05-11)
+
+
+
 <a name="1.0.14"></a>
 ## [1.0.14](https://github.com/Wikiki/bulma-extensions/compare/1.0.13...1.0.14) (2018-03-29)
 

@@ -1,4 +1,5 @@
 import 'react-primitives'
+import { View } from 'react-primitives'
 import React from 'react'
 
 import styled from '../index'
@@ -7,8 +8,40 @@ import { shallow, mount } from 'enzyme'
 // NOTE: These tests are copy pasted from ../native/test/native.test.js
 
 describe('primitives', () => {
-  it('should not throw an error when called', () => {
-    styled.View``
+  it('should not throw an error when called with a valid element', () => {
+    expect(() => styled.View``).not.toThrowError()
+
+    const FunctionalComponent = () => <View />;
+    class ClassComponent extends React.Component{
+      render() {
+        return <View />
+      }
+    }
+    const validComps = ['View', FunctionalComponent, ClassComponent];
+    validComps.forEach(comp => {
+      expect(() => {
+        const Comp = styled(comp)
+        shallow(<Comp />)
+      }).not.toThrowError()
+    })
+  });
+
+  it('should throw a meaningful error when called with an invalid element', () => {
+    const FunctionalComponent = () => <View />;
+    class ClassComponent extends React.Component{
+      render() {
+        return <View />
+      }
+    }
+    const invalidComps = [undefined, null, 123, [], <View />, <FunctionalComponent />, <ClassComponent />];
+    invalidComps.forEach(comp => {
+      expect(() => {
+        // $FlowInvalidInputTest
+        const Comp = styled(comp)
+        shallow(<Comp />)
+        // $FlowInvalidInputTest
+      }).toThrow(`Cannot create styled-component for component: ${comp}`)
+    })
   })
 
   it('should generate inline styles', () => {
@@ -206,7 +239,7 @@ describe('primitives', () => {
   })
 
   describe('innerRef', () => {
-    it('should pass the ref to the component', () => {
+    it('should pass a callback ref to the component', () => {
       const Comp = styled.View``
       const ref = jest.fn()
 
@@ -215,6 +248,19 @@ describe('primitives', () => {
       const comp = wrapper.find(Comp).first()
 
       expect(ref).toHaveBeenCalledWith(view.instance())
+      expect(view.prop('innerRef')).toBeFalsy()
+      expect(comp.instance().root).toBeTruthy()
+    })
+
+    it('should pass an object ref to the component', () => {
+      const Comp = styled.View``
+      const ref = React.createRef()
+
+      const wrapper = mount(<Comp innerRef={ref} />)
+      const view = wrapper.find('View').first()
+      const comp = wrapper.find(Comp).first()
+
+      expect(ref.current).toBe(view.instance())
       expect(view.prop('innerRef')).toBeFalsy()
       expect(comp.instance().root).toBeTruthy()
     })
