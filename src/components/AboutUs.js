@@ -45,15 +45,7 @@ const AboutUs=()=> {
               <i className="fas fa-code"></i>
             </span>
             <span>
-              <a > Link to front end repo</a>
-            </span>
-          </div>
-          <div className="panel-block">
-            <span className="panel-icon">
-              <i className="fas fa-code"></i>
-            </span>
-            <span>
-              <a  > Link to back end repo</a>
+              <a href="https://github.com/bcochrane11/comp482_asg3"> Link to front end repo</a>
             </span>
           </div>
           </nav>

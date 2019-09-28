@@ -40,8 +40,8 @@ You can get the files in multiple ways. Option 2,3,4a include the dependencies, 
     2. This includes dependencies (155 MB)
     3. *git clone https://github.com/bcochrane11/comp482_asg3.git*
 3. Download the zipped application from Google Drive
-    1. With dependencies (155 MB): [https://drive.google.com/file/d/1Ky2SdEYL0_gPOwntVgMVv36najj9WD2g/view?usp=sharing ](https://drive.google.com/file/d/1Ky2SdEYL0_gPOwntVgMVv36najj9WD2g/view?usp=sharing)
-    2. Without dependencies (4 MB) [https://drive.google.com/open?id=14dW_bOfyUyVprruTwzmY76sza1f7OFpq] 
+    1. With dependencies (155 MB): [https://drive.google.com/file/d/1I_waYRzT_jUipw5ZnIaPpt_G2dsozc_W/view?usp=sharing](https://drive.google.com/file/d/1I_waYRzT_jUipw5ZnIaPpt_G2dsozc_W/view?usp=sharing)
+    2. Without dependencies (4 MB) [https://drive.google.com/file/d/1MvlQqDlecq42HBY35vXpjb7vyMZ6B6TI/view?usp=sharing](https://drive.google.com/file/d/1MvlQqDlecq42HBY35vXpjb7vyMZ6B6TI/view?usp=sharing) 
     3. This is the zip submitted
 4. Download the zipped application from github
     1. THIS METHOD IS NOT RECOMMENDED
